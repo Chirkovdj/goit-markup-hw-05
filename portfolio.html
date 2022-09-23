@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
           <a href="./index.html" class="logo link">Web<span class="logo-accent">Studio</span></a>
           <ul class="navigation">
             <li class="link"><a href="./index.html" class="header-link link">Студія</a></li>
-            <li class="link"><a href="./portfolio.html" class="header-link link">Портфоліо</a></li>
+            <li class="link"><a href="./portfolio.html" class="header-link link current">Портфоліо</a></li>
             <li class="link"><a href="" class="header-link link">Контакти</a></li>
           </ul>
         </nav>
@@ -41,7 +42,7 @@
         <div class="container">
           <h1 hidden>Портфоліо</h1>
           <ul>
-            <div class="filter-nav">
+            <div class="filter-nav animate__animated animate__slideInDown">
               <li class="link"><button type="button" class="filter-button">Усі</button></li>
               <li class="link"><button type="button" class="filter-button">Веб-сайти</button></li>
               <li class="link"><button type="button" class="filter-button">Додатки</button></li>
@@ -51,14 +52,19 @@
           </ul>
          
           <ul>
-            <div class="portfolio-cards">
+            <div class="portfolio-cards animate__animated animate__zoomIn">
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/tehnokryak.jpg" alt="Технокряк">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/tehnokryak.jpg" alt="Технокряк">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Технокряк</h2>
-                      <p class="main-text">Веб-сайт</p>
+                      <p>Веб-сайт</p>
                     </div>
                 </div>
                 </a>
@@ -66,7 +72,12 @@
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/poster.jpg" alt="Постер New Orlean vs Golden Star" width="370px">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/poster.jpg" alt="Постер New Orlean vs Golden Star" width="370px">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Постер New Orlean vs Golden Star</h2>
                       <p>Дизайн</p>
@@ -77,7 +88,12 @@
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/restoran.jpg" alt="Ресторан Seafood" width="370px">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/restoran.jpg" alt="Ресторан Seafood" width="370px">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Ресторан Seafood</h2>
                       <p>Додаток</p>
@@ -89,72 +105,96 @@
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/project-prime.jpg" alt="Проєкт Prime" width="370px">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/project-prime.jpg" alt="Проєкт Prime" width="370px">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Проєкт Prime</h2>
                       <p>Маркетинг</p>
                     </div>
-                      
                   </div>
                 </a>
               </li>
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/project-boxes.jpg" alt="Проєкт Boxes" width="370px">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/project-boxes.jpg" alt="Проєкт Boxes" width="370px">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Проєкт Boxes</h2>
                       <p>Додаток</p>
                     </div>
-                    
                   </div>
                 </a>
               </li>
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/inspiration.jpg" alt="Inspiration has no Borders" width="370px">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/inspiration.jpg" alt="Inspiration has no Borders" width="370px">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Inspiration has no Borders</h2>
                       <p>Веб-сайт</p>
                     </div>
-                    
                   </div>
                 </a>
               </li>
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/vydannia.jpg" alt="Видання Limited Edition" width="370px">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/vydannia.jpg" alt="Видання Limited Edition" width="370px">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Видання Limited Edition</h2>
                       <p>Дизайн</p>
                     </div>
-                    
                   </div>
                 </a>
               </li>
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/project-lab.jpg" alt="Проєкт LAB" width="370px">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/project-lab.jpg" alt="Проєкт LAB" width="370px">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Проєкт LAB</h2>
                       <p>Маркетинг</p>
                     </div>
-                    
                   </div>
                 </a>
               </li>
               <li class="card item">
                 <a href="" class="link">
                   <div>
-                    <img src="./images/portfolio/growing-business.jpg" alt="Growing Business" width="370px">
+                    <div class="card-hover">
+                      <img src="./images/portfolio/growing-business.jpg" alt="Growing Business" width="370px">
+                      <div class="card-hover-text">
+                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                      </div>
+                    </div>
                     <div class="card-border">
                       <h2>Growing Business</h2>
                       <p>Додаток</p>
                     </div>
-                    
                   </div>
                 </a>
               </li>
@@ -209,5 +249,6 @@
         
       </div>
     </footer>
+    <script> </script>
   </body>
 </html>
